@@ -1058,6 +1058,9 @@
             case 'month':
                 this.date(1);
                 /* falls through */
+            case 'week':
+                /* falls through */
+                this.day(0);
             case 'day':
                 this.hours(0);
                 /* falls through */
